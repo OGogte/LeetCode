@@ -23,8 +23,7 @@ public:
                 s.push(to_string(solution));
             } else {
                 string w1 = tokens[i];
-                int a = stoi(w1);
-                s.push(to_string(a));
+                s.push(w1);
             }
         }
         return stoi(s.top());
